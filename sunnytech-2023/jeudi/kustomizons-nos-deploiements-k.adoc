@@ -1,0 +1,18 @@
+== Kustomizons nos déploiements K8S avec style 🤩 !
+
+>  jeudi 29 juin, 18:00 - 18:20
+
+link:https://sunny-tech.io/sessions/kustomizons-nos-deploiements-k[Lien]
+link:https://sunny-tech.io/speakers/kevin-davin[Kevin Davin]
+
+=== Abstract
+
+Et si l'on rebootait le système de templating YAML dans le monde Kubernetes?
+
+Venez découvrir Kustomize, une alternative sur-puissante pour "templatiser vos applications" sans pour autant rendre illisible vos fichiers YAML 🎉. Nous verrons ensemble comment organiser le développement pour permettre l'extension, l'héritage et autres modifications de déploiement avec Kustomize.
+
+A la fin de ce talk, vous serrez à même de déployer une app dans Kube, dans différents environments, de manière simple, lisible et accessible depuis la ligne de commande kubectl 😍 !
+
+=== Notes
+
+Mes notes sur le talk

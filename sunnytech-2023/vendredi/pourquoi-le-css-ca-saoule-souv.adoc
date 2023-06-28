@@ -1,0 +1,24 @@
+== Pourquoi le CSS Ca Saoule Souvent
+
+>  vendredi 30 juin, 11:20 - 12:10
+
+link:https://sunny-tech.io/sessions/pourquoi-le-css-ca-saoule-souv[Lien]
+link:https://sunny-tech.io/speakers/alberic-trancart[Albéric Trancart]
+
+=== Abstract
+
+Tu t’es déjà senti frustré·e par le CSS ? Que ce soit pour centrer les choses verticalement ou utiliser des hacks magiques pour obtenir ce qu’on veut… soit on a le “gène CSS”, soit on ne l’a pas. Les devs qui aiment le CSS semblent plus être l’exception que la règle.
+
+Mais n’aie pas peur ! Ce n’est pas une fatalité.
+
+Après avoir formé des douzaines de développeurs à CSS sur les 5 dernières années, j’ai fini par comprendre ce qui n’allait fondamentalement pas avec le CSS. Et je suis prêt à te le partager. Au programme :
+
+- une analyse d’où vient vraiment cette frustration
+- des astuces actionnables pour level up rapidement son niveau en CSS
+- comment apprendre les bons modèles mentaux pour intégrer des designs complexes
+
+Qui sait ? Tu finiras peut-être même par aimer ça !
+
+=== Notes
+
+Mes notes sur le talk

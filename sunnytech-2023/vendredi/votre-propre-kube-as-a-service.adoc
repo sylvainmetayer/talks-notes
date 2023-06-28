@@ -1,0 +1,24 @@
+== Votre propre kube as a service ? Une aventure dont vous êtes le héros...
+
+>  vendredi 30 juin, 16:20 - 17:10
+
+link:https://sunny-tech.io/sessions/votre-propre-kube-as-a-service[Lien]
+link:https://sunny-tech.io/speakers/louis-tournayre[Louis Tournayre]
+
+=== Abstract
+
+À la suite à votre succès dans la mise en place de GitOps dans kubernetes, votre équipe ne jure plus que par kube et ArgoCD.
+
+Mais un nouveau péril approche : la direction veut maintenant que la voix du GitOps embrasse tous les projets. Vous êtes sommé d'héberger et de gérer les futurs projets qui ne sauraient tarder à envahir vos clusters. Et vous avez très peu de temps, la direction a annoncé dans 42 informatik qu'elle était cloud ready.
+
+Saurez-vous trouver des solutions pour héberger les nouvelles applications, partager vos infrastructures et vous protéger d'elles ?
+
+Cette aventure sera interactive, soyez prêt à assumer vos choix, vous apprendrez de vos erreurs comme de vos succès, et peut être arriverez vous à proposer une solution d'hébergement multi-tenant.
+
+*4ème de couverture :
+
+Cette présentation est destinée aux aventuriers avec quelques connaissances de k8s et se posant des questions d'isolations et de partage de ressources avec kubernetes. Différents choix s'offriront à vous, prendrez-vous les bonnes options ? Arriverons-nous à temps à répondre aux attentes de la direction ?
+
+=== Notes
+
+Mes notes sur le talk

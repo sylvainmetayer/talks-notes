@@ -1,0 +1,20 @@
+== Un solveur de contraintes à la rescousse de SunnyTech
+
+>  jeudi 29 juin, 16:20 - 17:10
+
+link:https://sunny-tech.io/sessions/n-solveur-de-contraintes-a-la[Lien]
+link:https://sunny-tech.io/speakers/eric-taix[Eric Taix]
+
+=== Abstract
+
+Sunnytech c'est 5 tracks et 50 talks sur 2 jours soit environ 10+53 possibilités de planification différentes, de quoi faire tourner la tête !
+
+Les problèmes de planification sont nombreux et très courants (gestion des emplois du temps, optimisation des tournées, ...) et ils sont souvent très durs, voir impossibles à résoudre dans un temps polynomial, ce qui les classent dans les problèmes de type NP (Non determinist Problem).
+
+Sans besoin de connaissance mathématique préalable, vous découvrirez dans ce talk OptaPlanner, un solveur de contraintes open-source de JBoss. Ce framework vous permettra de répondre simplement à ces problèmes de planification et de trouver une solution en un temps record quelque soit vos contraintes.
+
+Nous planifierons même en live l'édition 2023 de SunnyTech au risque de tous disparaitre, remplacé par un autre talk...
+
+=== Notes
+
+Mes notes sur le talk

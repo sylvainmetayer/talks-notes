@@ -1,0 +1,14 @@
+== Flaky, ces drôles de bugs qui nous empoisonnent le dev
+
+>  jeudi 29 juin, 18:00 - 18:20
+
+link:https://sunny-tech.io/sessions/flaky-ces-droles-de-bugs-qui-n[Lien]
+link:https://sunny-tech.io/speakers/antoine-ceol[Antoine Céol]
+
+=== Abstract
+
+"Ça marche sur mon poste", on la tou.te.s dit ou au moins pensé 🥴. Le problème est que ça doit fonctionner partout où au moins sur les environnement controllés. Des fois ça ne marche pas, et c'est très frustrant, et des fois ça marche...mais pas tout le temps. Je vous invite et faire un focus sur les flakys 🐛, ces tests qui passent du vert au rouge, du rouge au vert, au grés du temps. On verra ensemble comment ils apparaissent, leurs causes et origines et comment les identifier au plus vite afin d'éviter de perdre (beaucoup) de temps et de réduire la frustration de l'équipe
+
+=== Notes
+
+Mes notes sur le talk

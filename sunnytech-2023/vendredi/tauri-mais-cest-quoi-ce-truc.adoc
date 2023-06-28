@@ -1,0 +1,18 @@
+== Tauri : mais c'est quoi ce truc ?
+
+>  vendredi 30 juin, 14:00 - 14:20
+
+link:https://sunny-tech.io/sessions/tauri-mais-cest-quoi-ce-truc-[Lien]
+link:https://sunny-tech.io/speakers/edouard-marquez[Edouard Marquez]
+
+=== Abstract
+
+Tauri est le framework qui veut remplacer ElectronJS, en permettant d'avoir des applications plus légères et performantes.
+
+Là où Electron JS se limite à du desktop, Tauri commence à se décliner pour Android et iOS.
+
+Dans cette présentation d'introduction, nous verrons comment fonctionne ce framework, puis essaierons de builder notre première application pour Android & iOS.
+
+=== Notes
+
+Mes notes sur le talk

@@ -1,0 +1,29 @@
+= SunnyTech 2023
+
+// Handling GitHub admonition blocks icons
+:icons: font
+:imagesdir: ./images
+:source-highlighter: highlightjs
+// We must enable experimental attribute to display Keyboard, button, and menu macros
+:experimental:
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To number the sections of the table of contents
+//:sectnums:
+// Add an anchor with hyperlink before the section title
+:sectanchors:
+// To turn off figure caption labels and numbers
+:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+// :caption:
+
+toc::[]
+
+include::jeudi/jeudi.adoc[]
+include::vendredi/vendredi.adoc[]

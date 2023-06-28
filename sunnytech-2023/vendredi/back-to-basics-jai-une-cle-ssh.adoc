@@ -1,0 +1,19 @@
+== 👨‍🎓Back to basics - J’ai une 🔑clé SSH💻, et maintenant🤷🏻‍♂️ ?
+
+>  vendredi 30 juin, 11:20 - 12:10
+
+link:https://sunny-tech.io/sessions/back-to-basics-jai-une-cle-ssh[Lien]
+link:https://sunny-tech.io/speakers/laurent-grangeau[Laurent Grangeau]
+link:https://sunny-tech.io/speakers/ludovic-piot[Ludovic Piot]
+
+=== Abstract
+
+Bravo petit Padawan, tu t’es forgé une clé SSH pour te connecter à ton serveur Linux, ta VM, ton instance dans le Cloud public !
+OK, mais sais-tu comment ça fonctionne ces clés SSH ?
+Sais-tu comment la stocker, la diffuser, la gérer au sens large ?
+Parce que les instances de compute, elles vont, elles viennent au rythme éphémère de l’autoscaling. Et pour des dizaines d’intervenants, des centaines d’instances.
+Comment s’assurer qu’elles sont générées avec le bon niveau de sécurité ? Comment se prémunir des risques de fuite ? Autant de questions auxquelles on va tenter d’apporter des réponses et des solutions aussi pratiques et transparentes que possible.
+
+=== Notes
+
+Mes notes sur le talk

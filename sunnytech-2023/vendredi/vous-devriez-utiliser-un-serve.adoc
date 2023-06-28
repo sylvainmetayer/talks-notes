@@ -1,0 +1,16 @@
+== Vous devriez utiliser un serveur de configuration
+
+>  vendredi 30 juin, 14:30 - 14:50
+
+link:https://sunny-tech.io/sessions/vous-devriez-utiliser-un-serve[Lien]
+link:https://sunny-tech.io/speakers/olivier-bourgain[Olivier Bourgain]
+
+=== Abstract
+
+Durant les ages sombres de l'informatique, les développeurs demandaient aux sysadmins via des tickets Jira de modifier des fichiers de configuration, en espérant donner une description assez précise des changements à effectuer. Ensuite, le sysadmin ouvrait un shell sur le serveur, éditait le fichier avec vi et redémarrait l'application en croisant les doigts. Qui n'a jamais eu un incident à cause d'une erreur dans cette procédure ? Comment éviter les problèmes ?
+
+Une solution est de retirer autant d'étapes que possible et automatiser le reste. Imaginons un instant traiter la configuration comme le code. Il faut faire des pull requests, avoir la review, passer la CI. On a aussi un historique des modifications, la facilité de rollback etc.
+
+=== Notes
+
+Mes notes sur le talk

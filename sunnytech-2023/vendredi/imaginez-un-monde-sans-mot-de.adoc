@@ -1,0 +1,23 @@
+== Imaginez un monde sans mot de passe 🔑
+
+>  vendredi 30 juin, 14:00 - 14:20
+
+link:https://sunny-tech.io/sessions/imaginez-un-monde-sans-mot-de-[Lien]
+link:https://sunny-tech.io/speakers/raphael-delplanque[Raphael Delplanque]
+
+=== Abstract
+
+Description pour convaincre d'assister au talk :
+
+T'en as marre de rentrer de vacances et de te demander quel est ton mot de passe ? Marre de passer du temps avec le support qui te pose 50 questions avant d'arriver à réinitialiser ton mot de passe. Souviens toi que tu as aussi perdu tes accès à Facebook et ton ancienne adresse Yahoo comme ça… Et si on changeait tout ça ?
+
+L'idée de cette session c'est de montrer les cas d'usages qu'on a aujourd'hui autour de l'authentification (pro et perso), de mettre en avant les forces et faiblesses des solutions existantes, de discuter de l'enjeu du mot de passe et du temps qu'il lui reste à vivre face aux nouvelles solutions d'authentification. Démonstration de comment lier et utiliser une Yubikey avec son compte Microsoft personnel. Des clés seront offertes pour l'occasion ;-)
+Message pour les organisateurs :
+
+L'idée tu l'as compris c'est de discuter d'une solution disruptive, une nouvelle méthode de connexion qui va bouleverser le monde de l'authentification. Ce facteur d'authentification c'est la Yubikey, un coffre-fort numérique qui permet de stocker vos identités qu'elles soient professionnelles ou personnelles. On l'appelle souvent, le couteau suisse de l'authentification moderne. Au-delà de sa polyvalence, elle a le mérite d'être ultra résistante aux épreuves de la vie courante et comparé aux solutions d'authentifications existantes c'est le meilleur compromis sécurité, stabilité, UX ( expérience utilisateur ) et coût d'acquisition. La YubiKey est interopérable nativement sur la plupart des systèmes d'exploitation et applications, fonctionne sans applications tierces, sans licences et est agnostique du réseau et des batteries. La Yubikey va permettre de venir supprimer les mots de passe sur l'ensemble des applications et systèmes pris en charge (Liste en PJ).
+
+En route vers la passwordless ! 🛣️
+
+=== Notes
+
+Mes notes sur le talk

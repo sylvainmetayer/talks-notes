@@ -1,0 +1,24 @@
+== Typesafe all the things: typage fort de la base de données jusqu'au client gràce à TypeScript, tRPC & prisma
+
+>  vendredi 30 juin, 15:10 - 16:00
+
+link:https://sunny-tech.io/sessions/typesafe-all-the-things-typage[Lien]
+link:https://sunny-tech.io/speakers/benjamin-legrand[Benjamin Legrand]
+
+=== Abstract
+
+Vous maintenez des interfaces synchronisées entre votre back et votre front ? c'est lourd non ?
+
+Peut-être avez vous besoin d'une étape de génération lors d'un changement de modèle de données de vos API's ?
+
+Le saviez-vous ? : on peut aujourd'hui se passer de tout cela.
+
+Découvrez une stack technique utilisant la puissance de typescript au service de l'expérience développeur et de la simplicité:
+
+- tRPC pour une API et son client sans schémas ni génération de code.
+- prisma pour un ORM supportant de nombreuses bases de données et orienté typescript first.
+
+
+=== Notes
+
+Mes notes sur le talk

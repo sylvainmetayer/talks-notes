@@ -1,0 +1,14 @@
+== Example Mapping: expliquer facilement les attentes du métier à vos équipes
+
+>  vendredi 30 juin, 14:00 - 14:20
+
+link:https://sunny-tech.io/sessions/example-mapping-expliquer-faci[Lien]
+link:https://sunny-tech.io/speakers/arnaud-langlade[Arnaud Langlade]
+
+=== Abstract
+
+Pendant pas mal d'années, j’ai préparé les sujets à venir avec de longs et ennuyeux réunions. Il était très compliqué de rester concentré jusqu’à la fin. Une réunion trop longue ne favorise pas le partage et l’alignement des équipes sur ce qui est attendu. N’oublions pas que c’est l’incompréhension des développeurs qui part en production comme le disait Alberto Brandolini. Durant cette présentation, je vais vous parler d’un atelier appelé “Example Mapping”. Cet atelier vous permettra facilement de communiquer les besoins et de construire votre backlog en équipe.
+
+=== Notes
+
+Mes notes sur le talk

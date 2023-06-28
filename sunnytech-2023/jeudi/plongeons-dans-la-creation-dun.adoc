@@ -1,0 +1,23 @@
+== Plongeons dans la création d'un provider Terraform
+
+> jeudi 29 juin, 11:20 - 12:10
+
+link:https://sunny-tech.io/sessions/plongeons-dans-la-creation-dun[Lien]
+link:https://sunny-tech.io/speakers/horacio-gonzalez-lostinbrittany[Horacio Gonzalez]
+link:https://sunny-tech.io/speakers/aurelie-vache[Aurélie Vache]
+
+=== Abstract
+
+Ces derniers temps, quand on pense à l'Infrastructure as Code (IaC), un outil semble se démarquer et est devenu un standard de facto : Terraform.
+
+Avec Terraform, vous pouvez facilement créer, modifier et versionner l'ensemble de votre infrastructure en utilisant des providers natifs à Terraform ou des providers personnalisés.
+
+Mais parfois, il n'y a pas de provider pour l'infrastructure que vous voulez utiliser, pas même un petit bout de code sans aucune référence dans un coin perdu d'Internet. La seule chose que l'infrastructure propose, c'est une API REST. Que pouvez-vous faire ? Revenir aux opérations manuelles ? Créer vos propres scripts bash pour piloter vos infras ?
+
+Dans cette conférence, Horacio et Aurélie vous montreront, étape par étape, comment passer d'une API d'infrastructure à un provider Terraform entièrement fonctionnel mais léger. En prenant comme base une API REST, ils expliqueront les bases de la création du provider, donneront quelques conseils sur la façon de faire une architecture du provider simple mais efficace et vous montreront le code en action.
+
+Vont-ils réussir cette nouvelle mission ? :-D
+
+=== Notes
+
+Mes notes sur le talk
