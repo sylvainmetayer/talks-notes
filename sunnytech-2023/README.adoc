@@ -1,5 +1,6 @@
 = SunnyTech 2023
 
+
 // Handling GitHub admonition blocks icons
 :icons: font
 :imagesdir: ./images

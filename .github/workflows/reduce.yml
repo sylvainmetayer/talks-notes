@@ -1,0 +1,22 @@
+name: Reduce README
+on:
+  push:
+    paths:
+      - sunnytech-2023/README.adoc
+    branches: ["**"]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Install Asciidoctor Reducer
+        run: sudo gem install asciidoctor-reducer
+      - name: Reduce README
+        # to preserve preprocessor conditionals, add the --preserve-conditionals option
+        run: asciidoctor-reducer -o sunnytech-2023/README_reduce.adoc sunnytech-2023/README.adoc
+      - name: Commit and Push README
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: sunnytech-2023/README.adoc
+          message: "Generate reduced README"
