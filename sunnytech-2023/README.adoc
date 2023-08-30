@@ -29,43 +29,57 @@ toc::[]
 
 :leveloffset: +1
 
-== Flaky, ces drôles de bugs qui nous empoisonnent le dev
+== CodeCarbon : Comment mesurer l’impact CO2 de vos projets?
 
->  jeudi 29 juin, 18:00 - 18:20
+> jeudi 29 juin, 14:00 - 14:50
 
-link:https://sunny-tech.io/sessions/flaky-ces-droles-de-bugs-qui-n[Lien]
-link:https://sunny-tech.io/speakers/antoine-ceol[Antoine Céol]
-
-=== Abstract
-
-"Ça marche sur mon poste", on la tou.te.s dit ou au moins pensé 🥴. Le problème est que ça doit fonctionner partout où au moins sur les environnement controllés. Des fois ça ne marche pas, et c'est très frustrant, et des fois ça marche...mais pas tout le temps. Je vous invite et faire un focus sur les flakys 🐛, ces tests qui passent du vert au rouge, du rouge au vert, au grés du temps. On verra ensemble comment ils apparaissent, leurs causes et origines et comment les identifier au plus vite afin d'éviter de perdre (beaucoup) de temps et de réduire la frustration de l'équipe
-
-=== Notes
-
-Mes notes sur le talk
-
-:leveloffset!:
-:leveloffset: +1
-
-== FoundationDB : le secret le mieux gardé des nouvelles architectures distribuées !
-
->  jeudi 29 juin, 14:00 - 14:50
-
-link:https://sunny-tech.io/sessions/foundationdb-le-secret-le-mieu[Lien]
-link:https://sunny-tech.io/speakers/steven-le-roux[Steven Le Roux]
-link:https://sunny-tech.io/speakers/pierre-zemb[Pierre Zemb]
+link:https://sunny-tech.io/sessions/codecarbon-comment-mesurer-lim[Lien]
+link:https://sunny-tech.io/speakers/benoit-courty[Benoit Courty]
+link:https://sunny-tech.io/speakers/amine-saboni[Amine Saboni]
+link:https://www.youtube.com/watch?v=GxwEa7wydWI&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=20[Video]
 
 === Abstract
 
-Savez-vous quel est le point commun entre Apple, Snowflake, VMWare et Datadog ? Ces entreprises partagent le même ingrédient : FoundationDB
+"Ce qui ne se mesure pas n'existe pas" disait Niels Bohr.
 
-FoundationDB est une base de données distribuée, open-source, souvent cachée dans l'infrastructure bas-niveau permettant de gérer des transactions distribuées ACID.
+Le numérique compte pour 2,5% de l’empreinte carbone de la France, nous disent l’ADEME et l’ARCEP mais qu’en est-il de nos impacts individuels en tant que développeur ou organisation? Quel est l’impact CO2 des puissances de calculs que nous utilisons au quotidien? De ce sur quoi nous avons réellement la main?
 
-Durant ce talk, nous vous proposons une découverte de cette base de données si peu connue. Vous découvrirez l'histoire du projet, ses garanties transactionnelles aussi fortes que Spanner, ainsi que sa robustesse opérationnelle. Nous ferons aussi un retour d'expérience sur le développement d'applications par-dessus FoundationDB.
+CodeCarbon est un package python open source qui estime cet impact. C’est un outil léger permettant de se construire des ordres de grandeurs sur l’impact de sa pratique professionnelle et d’aller au-delà des chiffres globaux et parfois fourre-tout lancés dans les médias; pour que chaque développeur puisse prendre la main sur son impact carbon et ouvrir la discussion.
+
+Pensé d’abord pour mesurer l’empreinte des modèles de Machine Learning et d’IA, CodeCarbon a évolué et s’adapte désormais à d’autres cas d’usages, nous vous en ferons la démonstration pour que vous puissiez vous approprier facilement cet outil.
 
 === Notes
 
-Mes notes sur le talk
+Outil python mesure CO2
+
+Fabrication toujours plus coûteux
+
+Ordre de grandeur de l'ordre de x100 stats faussées streaming video par ex
+
+Electrictymap origine énergie pour choix serveur
+
+Modèle ML coûteux en CO2
+
+Taxe carbone
+
+Modèle bloom français entraînement
+
+Consommation rapl unix pour suivi énergie
+
+NVIDIA smi suivi gpu
+
+Mlco2 calcultor
+
+Code carbon monitor pour monitor process hors python
+
+Comparatif entraînement modèle selon consommation cpu
+
+Scaphandre hubblo
+
+Mesure via agent
+
+Low impact layout site selon consommation énergie lowtech mag'
+
 
 :leveloffset!:
 :leveloffset: +1
@@ -76,6 +90,7 @@ Mes notes sur le talk
 
 link:https://sunny-tech.io/sessions/kustomizons-nos-deploiements-k[Lien]
 link:https://sunny-tech.io/speakers/kevin-davin[Kevin Davin]
+link:https://www.youtube.com/watch?v=Bdnaf9UGyVM&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=16[Video]
 
 === Abstract
 
@@ -87,7 +102,19 @@ A la fin de ce talk, vous serrez à même de déployer une app dans Kube, dans d
 
 === Notes
 
-Mes notes sur le talk
+Ressources relatives
+
+Configmap generator
+
+Notion de checksum configmap built in
+
+Prefix suffix => géré auto par kustomize et permet de redéployer les ressources dépendantes
+
+Registre d'image dans kustomize
+
+Peut s'intégrer avec helm
+
+Components optin ressources basé dans les childs
 
 :leveloffset!:
 :leveloffset: +1
@@ -98,6 +125,7 @@ Mes notes sur le talk
 
 link:https://sunny-tech.io/sessions/laissez-tombez-vos-dockerfile-[Lien]
 link:https://sunny-tech.io/speakers/julien-wittouck[Julien Wittouck]
+link:https://www.youtube.com/watch?v=2Zo34sXsMxU&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=2[Video]
 
 === Abstract
 
@@ -128,7 +156,37 @@ Ce talk est donc à destination des Ops et des Devs qui manipulent Docker au quo
 
 === Notes
 
-Mes notes sur le talk
+Oci images
+
+Different point de vue sécu ops dev
+
+Json tar gz => manifest image conteneur
+
+Dive docker image inspect
+
+Buildpacks.io
+
+Crée par heroku paas => cnb cncf
+
+2 binaires detect + build
+
+Builder qui crée image via script lifecycle
+
+Baketo builder communautaire
+
+Conflit de builder?
+
+Utilise par cloud builder pour serverless
+
+Knative buildpacks utilise
+
+Riff netlify
+
+Sbom => software bill of material (doc sécu)
+
+Rebase image possible pour upgrade java par exemple
+
+Tekton
 
 :leveloffset!:
 :leveloffset: +1
@@ -140,6 +198,7 @@ Mes notes sur le talk
 link:https://sunny-tech.io/sessions/plongeons-dans-la-creation-dun[Lien]
 link:https://sunny-tech.io/speakers/horacio-gonzalez-lostinbrittany[Horacio Gonzalez]
 link:https://sunny-tech.io/speakers/aurelie-vache[Aurélie Vache]
+link:https://www.youtube.com/watch?v=vwUyfPxCEVA&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=40[Video]
 
 === Abstract
 
@@ -155,29 +214,17 @@ Vont-ils réussir cette nouvelle mission ? :-D
 
 === Notes
 
-Mes notes sur le talk
+Pets server vs farm server => IAC
 
-:leveloffset!:
-:leveloffset: +1
+Provider = wrapper api
 
-== Sécurisons nos utilisateurs grâce au Mozilla Observatory
+Taskfile = make "moderne"
 
->  jeudi 29 juin, 15:10 - 16:00
+Utiliser template hashicorp pour création provider
 
-link:https://sunny-tech.io/sessions/securisons-nos-utilisateurs-gr[Lien]
-link:https://sunny-tech.io/speakers/antoine-caron[Antoine Caron]
+Enlever lock si pas de changement de version durant dev sinon pas update => durant le développement
 
-=== Abstract
-
-Assurer la sécurité d'une application web est une tâche complexe qui nécessite une attention particulière. Il est difficile de savoir si son site web est suffisamment protégé et s'il respecte les normes de sécurité habituelles. Pour aider les propriétaires de sites web à évaluer leur sécurité, la fondation Mozilla propose un outil d'audit gratuit qui permet de vérifier rapidement si son site web respecte un ensemble de règles de sécurité.
-
-Cependant, il est important de noter que l'utilisation de l'outil d'audit ne suffit pas à garantir la sécurité de votre site web. Si toutefois les propriétaires de sites web suivaient les pratiques de sécurité recommandées, le web serait déjà beaucoup plus sûr pour tous.
-
-Dans le cadre d'un livecoding, je vous invite à suivre mes instructions pour améliorer la sécurité de votre site web. Nous allons travailler ensemble pour passer votre site web d'un niveau F à un niveau A+ dans le Mozilla Observatory.
-
-=== Notes
-
-Mes notes sur le talk
+Tfplugins docs generator doc
 
 :leveloffset!:
 :leveloffset: +1
@@ -208,71 +255,97 @@ Mes notes sur le talk
 
 :leveloffset: +1
 
-== Apache Kafka : Tips & Tricks que j'aurais aimé connaître plus tôt..
+== REX: Une infrastructure Serverless de zéro, en Rust
 
->  vendredi 30 juin, 10:10 - 11:00
+>  vendredi 30 juin, 09:00 - 09:50
 
-link:https://sunny-tech.io/sessions/apache-kafka-tips-tricks-que-j[Lien]
-link:https://sunny-tech.io/speakers/arnaud-esteve[Arnaud Esteve]
+link:https://sunny-tech.io/sessions/rex-une-infrastructure-serverl[Lien]
+link:https://sunny-tech.io/speakers/alexandre-burgoni[Alexandre Burgoni]
 
 === Abstract
 
-Vous êtes vous déjà retrouvé avec 2000 topics créés en 3 minutes ? Avec un cluster Kafka totalement innondé de connexions ? Un producer aux performances désastreuses, peut-être ?
+Function As A Service et Serverless, deux mots-clés qui donnent des étoiles dans les yeux. Mais avez-vous déjà vu la face cachée de ces systèmes du quotidien ?
 
-Non ? Nous si !
+Au travers de deux projets: "RIK" et "Morty", nous irons en profondeur des composants d'une infrastructure FaaS : load balancer, front-end, runtime, software-defined network, scheduling, builder et j'en passe. Histoire de vous aider à y voir plus clair la prochaine fois que vous appellerez une fonction.
 
-Je vous propose, à travers différentes expériences : douloureuses à vivre mais amusantes à entendre de parcourir ensemble une liste des petits (ou gros) trucs que j'aurais aimé savoir, ou comprendre, plus tôt.
-
-On en profitera également pour balayer les questions les plus fréquentes qu'on peut se poser, ou qu'on a pu me poser : Quel format pour mes messages ? Combien de partitions ? Le tout en essayant, quand c'est possible, de dédramatiser.
-
-Idéal si vous connaissez déjà un peu Kafka (les concepts de base), mais n'avez pas (encore !) un niveau avancé. Peut également convenir si vous voulez vous lancer avec Kafka. Les utilisateurs plus avancés pourraient aussi apprendre quelques bonnes pratique, et se retrouveront très certainement dans certaines des expériences racontées.
-
-Les astuces sont un peu plus orientées pour les développeurs, mais les Ops peuvent être intéressés également (options de configuration, compression, etc.).
+RIK et Morty ? Pendant plusieurs mois nous avons développé "RIK", un orchestrateur de conteneurs et VMs en Rust. Et ce n'était pas uniquement pour concurrencer Kubernetes, mais aussi pour permettre de faire l'expérimentation d'une infrastructure serverless "Morty", from scratch et toujours en Rust ! Et bonne nouvelle, ces deux projets sont complètement Open-Source !
 
 === Notes
 
-Mes notes sur le talk
+Faaz orchestre
+
+Rex projet cours Polytech
+
+Rik rust in kube open source
+
+Micro vm pour isoler kerbel
+
+Firecracker microvm
+
+Développer firepilot pour sdk rust
+
+Utilisation rootfs via extract docker (build docker file)
+
+Morty faaz runtime pour créer rootfs
+
+Création agent dans Rootfs pour interaction avec microvm via socket http + telemtry
+
+Controller point d'entrée load balancer function manager scheduler
+
+Demo live wordle
 
 :leveloffset!:
 :leveloffset: +1
 
-== 👨‍🎓Back to basics - J’ai une 🔑clé SSH💻, et maintenant🤷🏻‍♂️ ?
+== Le numérique c’est pour tout le monde… ou pas !
 
->  vendredi 30 juin, 11:20 - 12:10
+> vendredi 30 juin, 10:10 - 11:00
 
-link:https://sunny-tech.io/sessions/back-to-basics-jai-une-cle-ssh[Lien]
-link:https://sunny-tech.io/speakers/laurent-grangeau[Laurent Grangeau]
-link:https://sunny-tech.io/speakers/ludovic-piot[Ludovic Piot]
-
-=== Abstract
-
-Bravo petit Padawan, tu t’es forgé une clé SSH pour te connecter à ton serveur Linux, ta VM, ton instance dans le Cloud public !
-OK, mais sais-tu comment ça fonctionne ces clés SSH ?
-Sais-tu comment la stocker, la diffuser, la gérer au sens large ?
-Parce que les instances de compute, elles vont, elles viennent au rythme éphémère de l’autoscaling. Et pour des dizaines d’intervenants, des centaines d’instances.
-Comment s’assurer qu’elles sont générées avec le bon niveau de sécurité ? Comment se prémunir des risques de fuite ? Autant de questions auxquelles on va tenter d’apporter des réponses et des solutions aussi pratiques et transparentes que possible.
-
-=== Notes
-
-Mes notes sur le talk
-
-:leveloffset!:
-:leveloffset: +1
-
-== Example Mapping: expliquer facilement les attentes du métier à vos équipes
-
->  vendredi 30 juin, 14:00 - 14:20
-
-link:https://sunny-tech.io/sessions/example-mapping-expliquer-faci[Lien]
-link:https://sunny-tech.io/speakers/arnaud-langlade[Arnaud Langlade]
+link:https://sunny-tech.io/sessions/le-numerique-cest-pour-tout-le[Lien]
+link:https://sunny-tech.io/speakers/iris-naudin[Iris Naudin]
+link:https://sunny-tech.io/speakers/cecile-freydfoucault[Cécile Freyd-Foucault]
 
 === Abstract
 
-Pendant pas mal d'années, j’ai préparé les sujets à venir avec de longs et ennuyeux réunions. Il était très compliqué de rester concentré jusqu’à la fin. Une réunion trop longue ne favorise pas le partage et l’alignement des équipes sur ce qui est attendu. N’oublions pas que c’est l’incompréhension des développeurs qui part en production comme le disait Alberto Brandolini. Durant cette présentation, je vais vous parler d’un atelier appelé “Example Mapping”. Cet atelier vous permettra facilement de communiquer les besoins et de construire votre backlog en équipe.
+Zones sans réseau, sites pas accessibles, télécommandes infernales … saviez-vous que 66% des utilisateurs sont exclus de vos dispositifs ?
+
+Vous voulez vivre dans un monde où les portes s’ouvrent dans le sens où elles sont censées s’ouvrir ? Où vos parents sont autonomes pour refaire leur carte grise en ligne ? Où (folie !) un site se charge en moins de 25 secondes même avec une mauvaise connexion ?
+
+Suivez-nous pour un tour d’horizon anti-exclusion : accessibilité, technique, complexité et contenu !
 
 === Notes
 
-Mes notes sur le talk
+1/3 exclus numérique
+
+80% handicap invisible
+
+Pas de cadre pour l'inclusion mais pénal pour discrimination si pas conforme
+
+Couvertures réseau ARCEP
+
+Formation pro accessibilité insuffisante
+
+Biais jeu de données
+
+Biais cognitif
+
+Biais auto complaisance  Projection
+
+Pour changer
+
+Penser cas personnes oubliée lors conception
+
+Alt image
+
+Microsoft désign toolkit
+
+Accessibility annotations kit
+
+Français facile à lire et comprendre falc
+
+https://github.com/cecilefreyd/numerique_inclusif_ressources
+
+Rgaa obligatoire pour boîte >2m CA en 2025
 
 :leveloffset!:
 :leveloffset: +1
@@ -299,31 +372,12 @@ En route vers la passwordless ! 🛣️
 
 === Notes
 
-Mes notes sur le talk
+Yubikey
 
-:leveloffset!:
-:leveloffset: +1
+Compatible natif OS Linux / Win
 
-== Kubernetes : le coeur de la meule … comme vous ne l’avez jamais vu
+Ouverture session Accès office Vpn connexion linux signature code avec
 
->  vendredi 30 juin, 09:00 - 09:50
-
-link:https://sunny-tech.io/sessions/pWXGKfOA6yl4beDnCRQk[Lien]
-link:https://sunny-tech.io/speakers/aurelie-vache[Aurélie Vache]
-link:https://sunny-tech.io/speakers/CrORN7BxijV6V6AmtHAf[Sébastien Blanc]
-
-
-=== Abstract
-
-Kubernetes, on en entend parler du soir au matin, tous les jours des articles sur la techno paraissent, tout le monde en fait, veux en faire, que ce soit en dev, pour un PoC ou en production... Mais, "c'est compliqué", "c'est pas pour moi", "pas envie de lire tous les changelogs", "je m'embrouille toujours dans les composants de kube", "j'suis pas ops", "je comprend pas"...
-
-Et si je vous dit, que l'on peut voir ensemble une overview de Kubernetes avec des tips et astuces, de manière résumée, imagée et simplifiée ? On va essayer de relever le double challenge d’expliquer Kubernetes sans slides, sans terminal, mais avec des accessoires, de la créativité et de l’imagination !
-
-Vous êtes partant ?
-
-=== Notes
-
-Mes notes sur le talk
 
 :leveloffset!:
 :leveloffset: +1
@@ -351,29 +405,22 @@ Qui sait ? Tu finiras peut-être même par aimer ça !
 
 === Notes
 
-Mes notes sur le talk
+Démystifier CSS => Magie noire
 
-:leveloffset!:
-:leveloffset: +1
+Pourquoi compliqué ? Car considéré par comme language et que mal compris : intention vocabulaire grammaire
 
-== Tauri : mais c'est quoi ce truc ?
+Maquette moyen imparfait de transmettre information
 
->  vendredi 30 juin, 14:00 - 14:20
+CSS grammaire
 
-link:https://sunny-tech.io/sessions/tauri-mais-cest-quoi-ce-truc-[Lien]
-link:https://sunny-tech.io/speakers/edouard-marquez[Edouard Marquez]
+Code doit respecter intention : variable calc stylelint
 
-=== Abstract
+Stacking context z index
 
-Tauri est le framework qui veut remplacer ElectronJS, en permettant d'avoir des applications plus légères et performantes.
+RadixUI composant accessibilité
 
-Là où Electron JS se limite à du desktop, Tauri commence à se décliner pour Android et iOS.
+Cssdojo.dev
 
-Dans cette présentation d'introduction, nous verrons comment fonctionne ce framework, puis essaierons de builder notre première application pour Android & iOS.
-
-=== Notes
-
-Mes notes sur le talk
 
 :leveloffset!:
 :leveloffset: +1
@@ -401,7 +448,33 @@ Découvrez une stack technique utilisant la puissance de typescript au service d
 
 === Notes
 
-Mes notes sur le talk
+Prisma auto génération type + ORM // introspection
+
+Single source truth => Mais attention scale
+
+Drizzle alternative
+
+Trpc
+
+- Query (get)
+- Mutation (post)
+- Websocket (subscription)
+
+Permet validation objet JS avec zod
+
+Typescript generic
+
+Serialization superjson
+
+Réconcilier équipe front back
+
+Openapi generator code
+
+Monorepo > multi repo
+
+Monorepo.tools
+
+Inference type typescript
 
 :leveloffset!:
 :leveloffset: +1
@@ -429,7 +502,13 @@ Cette présentation est destinée aux aventuriers avec quelques connaissances de
 
 === Notes
 
-Mes notes sur le talk
+Aventure héro partie 2 d'un talk précédent.
+
+Capi fourni par k8s pour provisionner cluster. Nécessite un cluster d'admin
+
+Cluster ctl
+
+Kubectl konfignimport save pour merge kubeconfig  (plugin krew)
 
 :leveloffset!:
 :leveloffset: +1
@@ -449,6 +528,22 @@ Une solution est de retirer autant d'étapes que possible et automatiser le rest
 
 === Notes
 
-Mes notes sur le talk
+Mirakl
+
+Kube déploiement des applis clients
+
+Spring cloud config boot server client pour gitops à la main 2017
+
+Poll périodique de confgi dépôt git
+
+Argocd à la main via api http
+
+Donne accès à toute équipe via PR pour autonomie via feature flag
+
+Serveur config au démarrage appli fetch config
+
+Problème boot appli si pas dispo
+
+Tout peut pas être géré avec (postgres config jvm...)
 
 :leveloffset!:
