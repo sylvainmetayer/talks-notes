@@ -21,4 +21,30 @@ Découvrez une stack technique utilisant la puissance de typescript au service d
 
 === Notes
 
-Mes notes sur le talk
+Prisma auto génération type + ORM // introspection
+
+Single source truth => Mais attention scale
+
+Drizzle alternative
+
+Trpc
+
+- Query (get)
+- Mutation (post)
+- Websocket (subscription)
+
+Permet validation objet JS avec zod
+
+Typescript generic
+
+Serialization superjson
+
+Réconcilier équipe front back
+
+Openapi generator code
+
+Monorepo > multi repo
+
+Monorepo.tools
+
+Inference type typescript

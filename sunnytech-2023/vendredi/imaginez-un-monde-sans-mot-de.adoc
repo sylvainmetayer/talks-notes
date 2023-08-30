@@ -20,4 +20,9 @@ En route vers la passwordless ! 🛣️
 
 === Notes
 
-Mes notes sur le talk
+Yubikey
+
+Compatible natif OS Linux / Win
+
+Ouverture session Accès office Vpn connexion linux signature code avec
+

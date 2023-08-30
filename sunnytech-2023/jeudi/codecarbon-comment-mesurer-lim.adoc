@@ -1,0 +1,51 @@
+== CodeCarbon : Comment mesurer l’impact CO2 de vos projets?
+
+> jeudi 29 juin, 14:00 - 14:50
+
+link:https://sunny-tech.io/sessions/codecarbon-comment-mesurer-lim[Lien]
+link:https://sunny-tech.io/speakers/benoit-courty[Benoit Courty]
+link:https://sunny-tech.io/speakers/amine-saboni[Amine Saboni]
+link:https://www.youtube.com/watch?v=GxwEa7wydWI&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=20[Video]
+
+=== Abstract
+
+"Ce qui ne se mesure pas n'existe pas" disait Niels Bohr.
+
+Le numérique compte pour 2,5% de l’empreinte carbone de la France, nous disent l’ADEME et l’ARCEP mais qu’en est-il de nos impacts individuels en tant que développeur ou organisation? Quel est l’impact CO2 des puissances de calculs que nous utilisons au quotidien? De ce sur quoi nous avons réellement la main?
+
+CodeCarbon est un package python open source qui estime cet impact. C’est un outil léger permettant de se construire des ordres de grandeurs sur l’impact de sa pratique professionnelle et d’aller au-delà des chiffres globaux et parfois fourre-tout lancés dans les médias; pour que chaque développeur puisse prendre la main sur son impact carbon et ouvrir la discussion.
+
+Pensé d’abord pour mesurer l’empreinte des modèles de Machine Learning et d’IA, CodeCarbon a évolué et s’adapte désormais à d’autres cas d’usages, nous vous en ferons la démonstration pour que vous puissiez vous approprier facilement cet outil.
+
+=== Notes
+
+Outil python mesure CO2
+
+Fabrication toujours plus coûteux
+
+Ordre de grandeur de l'ordre de x100 stats faussées streaming video par ex
+
+Electrictymap origine énergie pour choix serveur
+
+Modèle ML coûteux en CO2
+
+Taxe carbone
+
+Modèle bloom français entraînement
+
+Consommation rapl unix pour suivi énergie
+
+NVIDIA smi suivi gpu
+
+Mlco2 calcultor
+
+Code carbon monitor pour monitor process hors python
+
+Comparatif entraînement modèle selon consommation cpu
+
+Scaphandre hubblo
+
+Mesure via agent
+
+Low impact layout site selon consommation énergie lowtech mag'
+

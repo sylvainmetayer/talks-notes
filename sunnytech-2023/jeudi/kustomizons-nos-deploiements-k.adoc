@@ -4,6 +4,7 @@
 
 link:https://sunny-tech.io/sessions/kustomizons-nos-deploiements-k[Lien]
 link:https://sunny-tech.io/speakers/kevin-davin[Kevin Davin]
+link:https://www.youtube.com/watch?v=Bdnaf9UGyVM&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=16[Video]
 
 === Abstract
 
@@ -15,4 +16,16 @@ A la fin de ce talk, vous serrez à même de déployer une app dans Kube, dans d
 
 === Notes
 
-Mes notes sur le talk
+Ressources relatives
+
+Configmap generator
+
+Notion de checksum configmap built in
+
+Prefix suffix => géré auto par kustomize et permet de redéployer les ressources dépendantes
+
+Registre d'image dans kustomize
+
+Peut s'intégrer avec helm
+
+Components optin ressources basé dans les childs

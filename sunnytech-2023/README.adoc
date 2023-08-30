@@ -25,5 +25,430 @@
 
 toc::[]
 
-include::jeudi/jeudi.adoc[]
-include::vendredi/vendredi.adoc[]
+== Jeudi
+
+:leveloffset: +1
+
+== Flaky, ces drôles de bugs qui nous empoisonnent le dev
+
+>  jeudi 29 juin, 18:00 - 18:20
+
+link:https://sunny-tech.io/sessions/flaky-ces-droles-de-bugs-qui-n[Lien]
+link:https://sunny-tech.io/speakers/antoine-ceol[Antoine Céol]
+
+=== Abstract
+
+"Ça marche sur mon poste", on la tou.te.s dit ou au moins pensé 🥴. Le problème est que ça doit fonctionner partout où au moins sur les environnement controllés. Des fois ça ne marche pas, et c'est très frustrant, et des fois ça marche...mais pas tout le temps. Je vous invite et faire un focus sur les flakys 🐛, ces tests qui passent du vert au rouge, du rouge au vert, au grés du temps. On verra ensemble comment ils apparaissent, leurs causes et origines et comment les identifier au plus vite afin d'éviter de perdre (beaucoup) de temps et de réduire la frustration de l'équipe
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== FoundationDB : le secret le mieux gardé des nouvelles architectures distribuées !
+
+>  jeudi 29 juin, 14:00 - 14:50
+
+link:https://sunny-tech.io/sessions/foundationdb-le-secret-le-mieu[Lien]
+link:https://sunny-tech.io/speakers/steven-le-roux[Steven Le Roux]
+link:https://sunny-tech.io/speakers/pierre-zemb[Pierre Zemb]
+
+=== Abstract
+
+Savez-vous quel est le point commun entre Apple, Snowflake, VMWare et Datadog ? Ces entreprises partagent le même ingrédient : FoundationDB
+
+FoundationDB est une base de données distribuée, open-source, souvent cachée dans l'infrastructure bas-niveau permettant de gérer des transactions distribuées ACID.
+
+Durant ce talk, nous vous proposons une découverte de cette base de données si peu connue. Vous découvrirez l'histoire du projet, ses garanties transactionnelles aussi fortes que Spanner, ainsi que sa robustesse opérationnelle. Nous ferons aussi un retour d'expérience sur le développement d'applications par-dessus FoundationDB.
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Kustomizons nos déploiements K8S avec style 🤩 !
+
+>  jeudi 29 juin, 18:00 - 18:20
+
+link:https://sunny-tech.io/sessions/kustomizons-nos-deploiements-k[Lien]
+link:https://sunny-tech.io/speakers/kevin-davin[Kevin Davin]
+
+=== Abstract
+
+Et si l'on rebootait le système de templating YAML dans le monde Kubernetes?
+
+Venez découvrir Kustomize, une alternative sur-puissante pour "templatiser vos applications" sans pour autant rendre illisible vos fichiers YAML 🎉. Nous verrons ensemble comment organiser le développement pour permettre l'extension, l'héritage et autres modifications de déploiement avec Kustomize.
+
+A la fin de ce talk, vous serrez à même de déployer une app dans Kube, dans différents environments, de manière simple, lisible et accessible depuis la ligne de commande kubectl 😍 !
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Laissez tomber vos Dockerfile, adoptez un buildpack !
+
+> jeudi 29 juin, 10:10 - 11:00
+
+link:https://sunny-tech.io/sessions/laissez-tombez-vos-dockerfile-[Lien]
+link:https://sunny-tech.io/speakers/julien-wittouck[Julien Wittouck]
+
+=== Abstract
+
+Depuis plusieurs années maintenant, Docker est utilisé par toute l'industrie de l'IT pour packager et déployer des applications.
+
+Bien que l'écriture d'un Dockerfile soit facile, la construction d'images OCI/Docker reste un exercice compliqué:
+
+- optimisation des layers de l'image
+- bonne gestion des processus Linux
+- séparation des phases de build et de run des images
+- bonnes pratiques de sécurité
+
+Pire, lorsqu'une faille de sécurité est détecté dans une layer basse (distribution ou runtime) d'une image applicative, il faut alors potentiellement reconstruire plusieurs dizaines ou centaines d'images pour y intégrer les version patchées.
+
+Dans ce talk, nous apprendrons comment les buildpacks permettent de construire des images OCI/Docker sans Dockerfile et bénéficier des bonnes pratiques issues de la communauté open-source.
+
+Nous verrons :
+
+- ce qu'est une image OCI, une layer, et comment Docker les construit
+- comment analyser le contenu des layers d'une image OCI, et ce qui ne va pas dans les images que nous construisons au quotidien
+- ce qu'est un buildpack et comment un buildpack construit une image OCI
+- avec une démo, comment utiliser un buildpack proposé par la communauté open-source pour contruire une image OCI contenant une application NodeJS ou Java optimisée
+- enfin, nous verrons comment les buildpacks proposent de rebaser des image, et nous permettre de patcher en masse des images applicatives pour corriger des failles de sécurité, sans rebuilder complètement nos images !
+
+Ce talk est donc à destination des Ops et des Devs qui manipulent Docker au quotidien.
+
+À la sortie de ce talk, je devrai vous avoir convaincu d'abandonner vos Dockerfile et d'expérimenter les buildpacks !
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Plongeons dans la création d'un provider Terraform
+
+> jeudi 29 juin, 11:20 - 12:10
+
+link:https://sunny-tech.io/sessions/plongeons-dans-la-creation-dun[Lien]
+link:https://sunny-tech.io/speakers/horacio-gonzalez-lostinbrittany[Horacio Gonzalez]
+link:https://sunny-tech.io/speakers/aurelie-vache[Aurélie Vache]
+
+=== Abstract
+
+Ces derniers temps, quand on pense à l'Infrastructure as Code (IaC), un outil semble se démarquer et est devenu un standard de facto : Terraform.
+
+Avec Terraform, vous pouvez facilement créer, modifier et versionner l'ensemble de votre infrastructure en utilisant des providers natifs à Terraform ou des providers personnalisés.
+
+Mais parfois, il n'y a pas de provider pour l'infrastructure que vous voulez utiliser, pas même un petit bout de code sans aucune référence dans un coin perdu d'Internet. La seule chose que l'infrastructure propose, c'est une API REST. Que pouvez-vous faire ? Revenir aux opérations manuelles ? Créer vos propres scripts bash pour piloter vos infras ?
+
+Dans cette conférence, Horacio et Aurélie vous montreront, étape par étape, comment passer d'une API d'infrastructure à un provider Terraform entièrement fonctionnel mais léger. En prenant comme base une API REST, ils expliqueront les bases de la création du provider, donneront quelques conseils sur la façon de faire une architecture du provider simple mais efficace et vous montreront le code en action.
+
+Vont-ils réussir cette nouvelle mission ? :-D
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Sécurisons nos utilisateurs grâce au Mozilla Observatory
+
+>  jeudi 29 juin, 15:10 - 16:00
+
+link:https://sunny-tech.io/sessions/securisons-nos-utilisateurs-gr[Lien]
+link:https://sunny-tech.io/speakers/antoine-caron[Antoine Caron]
+
+=== Abstract
+
+Assurer la sécurité d'une application web est une tâche complexe qui nécessite une attention particulière. Il est difficile de savoir si son site web est suffisamment protégé et s'il respecte les normes de sécurité habituelles. Pour aider les propriétaires de sites web à évaluer leur sécurité, la fondation Mozilla propose un outil d'audit gratuit qui permet de vérifier rapidement si son site web respecte un ensemble de règles de sécurité.
+
+Cependant, il est important de noter que l'utilisation de l'outil d'audit ne suffit pas à garantir la sécurité de votre site web. Si toutefois les propriétaires de sites web suivaient les pratiques de sécurité recommandées, le web serait déjà beaucoup plus sûr pour tous.
+
+Dans le cadre d'un livecoding, je vous invite à suivre mes instructions pour améliorer la sécurité de votre site web. Nous allons travailler ensemble pour passer votre site web d'un niveau F à un niveau A+ dans le Mozilla Observatory.
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Un solveur de contraintes à la rescousse de SunnyTech
+
+>  jeudi 29 juin, 16:20 - 17:10
+
+link:https://sunny-tech.io/sessions/n-solveur-de-contraintes-a-la[Lien]
+link:https://sunny-tech.io/speakers/eric-taix[Eric Taix]
+
+=== Abstract
+
+Sunnytech c'est 5 tracks et 50 talks sur 2 jours soit environ 10+53 possibilités de planification différentes, de quoi faire tourner la tête !
+
+Les problèmes de planification sont nombreux et très courants (gestion des emplois du temps, optimisation des tournées, ...) et ils sont souvent très durs, voir impossibles à résoudre dans un temps polynomial, ce qui les classent dans les problèmes de type NP (Non determinist Problem).
+
+Sans besoin de connaissance mathématique préalable, vous découvrirez dans ce talk OptaPlanner, un solveur de contraintes open-source de JBoss. Ce framework vous permettra de répondre simplement à ces problèmes de planification et de trouver une solution en un temps record quelque soit vos contraintes.
+
+Nous planifierons même en live l'édition 2023 de SunnyTech au risque de tous disparaitre, remplacé par un autre talk...
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+== Vendredi
+
+:leveloffset: +1
+
+== Apache Kafka : Tips & Tricks que j'aurais aimé connaître plus tôt..
+
+>  vendredi 30 juin, 10:10 - 11:00
+
+link:https://sunny-tech.io/sessions/apache-kafka-tips-tricks-que-j[Lien]
+link:https://sunny-tech.io/speakers/arnaud-esteve[Arnaud Esteve]
+
+=== Abstract
+
+Vous êtes vous déjà retrouvé avec 2000 topics créés en 3 minutes ? Avec un cluster Kafka totalement innondé de connexions ? Un producer aux performances désastreuses, peut-être ?
+
+Non ? Nous si !
+
+Je vous propose, à travers différentes expériences : douloureuses à vivre mais amusantes à entendre de parcourir ensemble une liste des petits (ou gros) trucs que j'aurais aimé savoir, ou comprendre, plus tôt.
+
+On en profitera également pour balayer les questions les plus fréquentes qu'on peut se poser, ou qu'on a pu me poser : Quel format pour mes messages ? Combien de partitions ? Le tout en essayant, quand c'est possible, de dédramatiser.
+
+Idéal si vous connaissez déjà un peu Kafka (les concepts de base), mais n'avez pas (encore !) un niveau avancé. Peut également convenir si vous voulez vous lancer avec Kafka. Les utilisateurs plus avancés pourraient aussi apprendre quelques bonnes pratique, et se retrouveront très certainement dans certaines des expériences racontées.
+
+Les astuces sont un peu plus orientées pour les développeurs, mais les Ops peuvent être intéressés également (options de configuration, compression, etc.).
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== 👨‍🎓Back to basics - J’ai une 🔑clé SSH💻, et maintenant🤷🏻‍♂️ ?
+
+>  vendredi 30 juin, 11:20 - 12:10
+
+link:https://sunny-tech.io/sessions/back-to-basics-jai-une-cle-ssh[Lien]
+link:https://sunny-tech.io/speakers/laurent-grangeau[Laurent Grangeau]
+link:https://sunny-tech.io/speakers/ludovic-piot[Ludovic Piot]
+
+=== Abstract
+
+Bravo petit Padawan, tu t’es forgé une clé SSH pour te connecter à ton serveur Linux, ta VM, ton instance dans le Cloud public !
+OK, mais sais-tu comment ça fonctionne ces clés SSH ?
+Sais-tu comment la stocker, la diffuser, la gérer au sens large ?
+Parce que les instances de compute, elles vont, elles viennent au rythme éphémère de l’autoscaling. Et pour des dizaines d’intervenants, des centaines d’instances.
+Comment s’assurer qu’elles sont générées avec le bon niveau de sécurité ? Comment se prémunir des risques de fuite ? Autant de questions auxquelles on va tenter d’apporter des réponses et des solutions aussi pratiques et transparentes que possible.
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Example Mapping: expliquer facilement les attentes du métier à vos équipes
+
+>  vendredi 30 juin, 14:00 - 14:20
+
+link:https://sunny-tech.io/sessions/example-mapping-expliquer-faci[Lien]
+link:https://sunny-tech.io/speakers/arnaud-langlade[Arnaud Langlade]
+
+=== Abstract
+
+Pendant pas mal d'années, j’ai préparé les sujets à venir avec de longs et ennuyeux réunions. Il était très compliqué de rester concentré jusqu’à la fin. Une réunion trop longue ne favorise pas le partage et l’alignement des équipes sur ce qui est attendu. N’oublions pas que c’est l’incompréhension des développeurs qui part en production comme le disait Alberto Brandolini. Durant cette présentation, je vais vous parler d’un atelier appelé “Example Mapping”. Cet atelier vous permettra facilement de communiquer les besoins et de construire votre backlog en équipe.
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Imaginez un monde sans mot de passe 🔑
+
+>  vendredi 30 juin, 14:00 - 14:20
+
+link:https://sunny-tech.io/sessions/imaginez-un-monde-sans-mot-de-[Lien]
+link:https://sunny-tech.io/speakers/raphael-delplanque[Raphael Delplanque]
+
+=== Abstract
+
+Description pour convaincre d'assister au talk :
+
+T'en as marre de rentrer de vacances et de te demander quel est ton mot de passe ? Marre de passer du temps avec le support qui te pose 50 questions avant d'arriver à réinitialiser ton mot de passe. Souviens toi que tu as aussi perdu tes accès à Facebook et ton ancienne adresse Yahoo comme ça… Et si on changeait tout ça ?
+
+L'idée de cette session c'est de montrer les cas d'usages qu'on a aujourd'hui autour de l'authentification (pro et perso), de mettre en avant les forces et faiblesses des solutions existantes, de discuter de l'enjeu du mot de passe et du temps qu'il lui reste à vivre face aux nouvelles solutions d'authentification. Démonstration de comment lier et utiliser une Yubikey avec son compte Microsoft personnel. Des clés seront offertes pour l'occasion ;-)
+Message pour les organisateurs :
+
+L'idée tu l'as compris c'est de discuter d'une solution disruptive, une nouvelle méthode de connexion qui va bouleverser le monde de l'authentification. Ce facteur d'authentification c'est la Yubikey, un coffre-fort numérique qui permet de stocker vos identités qu'elles soient professionnelles ou personnelles. On l'appelle souvent, le couteau suisse de l'authentification moderne. Au-delà de sa polyvalence, elle a le mérite d'être ultra résistante aux épreuves de la vie courante et comparé aux solutions d'authentifications existantes c'est le meilleur compromis sécurité, stabilité, UX ( expérience utilisateur ) et coût d'acquisition. La YubiKey est interopérable nativement sur la plupart des systèmes d'exploitation et applications, fonctionne sans applications tierces, sans licences et est agnostique du réseau et des batteries. La Yubikey va permettre de venir supprimer les mots de passe sur l'ensemble des applications et systèmes pris en charge (Liste en PJ).
+
+En route vers la passwordless ! 🛣️
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Kubernetes : le coeur de la meule … comme vous ne l’avez jamais vu
+
+>  vendredi 30 juin, 09:00 - 09:50
+
+link:https://sunny-tech.io/sessions/pWXGKfOA6yl4beDnCRQk[Lien]
+link:https://sunny-tech.io/speakers/aurelie-vache[Aurélie Vache]
+link:https://sunny-tech.io/speakers/CrORN7BxijV6V6AmtHAf[Sébastien Blanc]
+
+
+=== Abstract
+
+Kubernetes, on en entend parler du soir au matin, tous les jours des articles sur la techno paraissent, tout le monde en fait, veux en faire, que ce soit en dev, pour un PoC ou en production... Mais, "c'est compliqué", "c'est pas pour moi", "pas envie de lire tous les changelogs", "je m'embrouille toujours dans les composants de kube", "j'suis pas ops", "je comprend pas"...
+
+Et si je vous dit, que l'on peut voir ensemble une overview de Kubernetes avec des tips et astuces, de manière résumée, imagée et simplifiée ? On va essayer de relever le double challenge d’expliquer Kubernetes sans slides, sans terminal, mais avec des accessoires, de la créativité et de l’imagination !
+
+Vous êtes partant ?
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Pourquoi le CSS Ca Saoule Souvent
+
+>  vendredi 30 juin, 11:20 - 12:10
+
+link:https://sunny-tech.io/sessions/pourquoi-le-css-ca-saoule-souv[Lien]
+link:https://sunny-tech.io/speakers/alberic-trancart[Albéric Trancart]
+
+=== Abstract
+
+Tu t’es déjà senti frustré·e par le CSS ? Que ce soit pour centrer les choses verticalement ou utiliser des hacks magiques pour obtenir ce qu’on veut… soit on a le “gène CSS”, soit on ne l’a pas. Les devs qui aiment le CSS semblent plus être l’exception que la règle.
+
+Mais n’aie pas peur ! Ce n’est pas une fatalité.
+
+Après avoir formé des douzaines de développeurs à CSS sur les 5 dernières années, j’ai fini par comprendre ce qui n’allait fondamentalement pas avec le CSS. Et je suis prêt à te le partager. Au programme :
+
+- une analyse d’où vient vraiment cette frustration
+- des astuces actionnables pour level up rapidement son niveau en CSS
+- comment apprendre les bons modèles mentaux pour intégrer des designs complexes
+
+Qui sait ? Tu finiras peut-être même par aimer ça !
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Tauri : mais c'est quoi ce truc ?
+
+>  vendredi 30 juin, 14:00 - 14:20
+
+link:https://sunny-tech.io/sessions/tauri-mais-cest-quoi-ce-truc-[Lien]
+link:https://sunny-tech.io/speakers/edouard-marquez[Edouard Marquez]
+
+=== Abstract
+
+Tauri est le framework qui veut remplacer ElectronJS, en permettant d'avoir des applications plus légères et performantes.
+
+Là où Electron JS se limite à du desktop, Tauri commence à se décliner pour Android et iOS.
+
+Dans cette présentation d'introduction, nous verrons comment fonctionne ce framework, puis essaierons de builder notre première application pour Android & iOS.
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Typesafe all the things: typage fort de la base de données jusqu'au client gràce à TypeScript, tRPC & prisma
+
+>  vendredi 30 juin, 15:10 - 16:00
+
+link:https://sunny-tech.io/sessions/typesafe-all-the-things-typage[Lien]
+link:https://sunny-tech.io/speakers/benjamin-legrand[Benjamin Legrand]
+
+=== Abstract
+
+Vous maintenez des interfaces synchronisées entre votre back et votre front ? c'est lourd non ?
+
+Peut-être avez vous besoin d'une étape de génération lors d'un changement de modèle de données de vos API's ?
+
+Le saviez-vous ? : on peut aujourd'hui se passer de tout cela.
+
+Découvrez une stack technique utilisant la puissance de typescript au service de l'expérience développeur et de la simplicité:
+
+- tRPC pour une API et son client sans schémas ni génération de code.
+- prisma pour un ORM supportant de nombreuses bases de données et orienté typescript first.
+
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Votre propre kube as a service ? Une aventure dont vous êtes le héros...
+
+>  vendredi 30 juin, 16:20 - 17:10
+
+link:https://sunny-tech.io/sessions/votre-propre-kube-as-a-service[Lien]
+link:https://sunny-tech.io/speakers/louis-tournayre[Louis Tournayre]
+
+=== Abstract
+
+À la suite à votre succès dans la mise en place de GitOps dans kubernetes, votre équipe ne jure plus que par kube et ArgoCD.
+
+Mais un nouveau péril approche : la direction veut maintenant que la voix du GitOps embrasse tous les projets. Vous êtes sommé d'héberger et de gérer les futurs projets qui ne sauraient tarder à envahir vos clusters. Et vous avez très peu de temps, la direction a annoncé dans 42 informatik qu'elle était cloud ready.
+
+Saurez-vous trouver des solutions pour héberger les nouvelles applications, partager vos infrastructures et vous protéger d'elles ?
+
+Cette aventure sera interactive, soyez prêt à assumer vos choix, vous apprendrez de vos erreurs comme de vos succès, et peut être arriverez vous à proposer une solution d'hébergement multi-tenant.
+
+*4ème de couverture :
+
+Cette présentation est destinée aux aventuriers avec quelques connaissances de k8s et se posant des questions d'isolations et de partage de ressources avec kubernetes. Différents choix s'offriront à vous, prendrez-vous les bonnes options ? Arriverons-nous à temps à répondre aux attentes de la direction ?
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:
+:leveloffset: +1
+
+== Vous devriez utiliser un serveur de configuration
+
+>  vendredi 30 juin, 14:30 - 14:50
+
+link:https://sunny-tech.io/sessions/vous-devriez-utiliser-un-serve[Lien]
+link:https://sunny-tech.io/speakers/olivier-bourgain[Olivier Bourgain]
+
+=== Abstract
+
+Durant les ages sombres de l'informatique, les développeurs demandaient aux sysadmins via des tickets Jira de modifier des fichiers de configuration, en espérant donner une description assez précise des changements à effectuer. Ensuite, le sysadmin ouvrait un shell sur le serveur, éditait le fichier avec vi et redémarrait l'application en croisant les doigts. Qui n'a jamais eu un incident à cause d'une erreur dans cette procédure ? Comment éviter les problèmes ?
+
+Une solution est de retirer autant d'étapes que possible et automatiser le reste. Imaginons un instant traiter la configuration comme le code. Il faut faire des pull requests, avoir la review, passer la CI. On a aussi un historique des modifications, la facilité de rollback etc.
+
+=== Notes
+
+Mes notes sur le talk
+
+:leveloffset!:

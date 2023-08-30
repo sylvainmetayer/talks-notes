@@ -21,4 +21,10 @@ Cette présentation est destinée aux aventuriers avec quelques connaissances de
 
 === Notes
 
-Mes notes sur le talk
+Aventure héro partie 2 d'un talk précédent.
+
+Capi fourni par k8s pour provisionner cluster. Nécessite un cluster d'admin
+
+Cluster ctl
+
+Kubectl konfignimport save pour merge kubeconfig  (plugin krew)

@@ -13,4 +13,20 @@ Une solution est de retirer autant d'étapes que possible et automatiser le rest
 
 === Notes
 
-Mes notes sur le talk
+Mirakl
+
+Kube déploiement des applis clients
+
+Spring cloud config boot server client pour gitops à la main 2017
+
+Poll périodique de confgi dépôt git
+
+Argocd à la main via api http
+
+Donne accès à toute équipe via PR pour autonomie via feature flag
+
+Serveur config au démarrage appli fetch config
+
+Problème boot appli si pas dispo
+
+Tout peut pas être géré avec (postgres config jvm...)

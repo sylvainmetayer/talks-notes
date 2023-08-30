@@ -4,6 +4,7 @@
 
 link:https://sunny-tech.io/sessions/laissez-tombez-vos-dockerfile-[Lien]
 link:https://sunny-tech.io/speakers/julien-wittouck[Julien Wittouck]
+link:https://www.youtube.com/watch?v=2Zo34sXsMxU&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=2[Video]
 
 === Abstract
 
@@ -34,4 +35,34 @@ Ce talk est donc à destination des Ops et des Devs qui manipulent Docker au quo
 
 === Notes
 
-Mes notes sur le talk
+Oci images
+
+Different point de vue sécu ops dev
+
+Json tar gz => manifest image conteneur
+
+Dive docker image inspect
+
+Buildpacks.io
+
+Crée par heroku paas => cnb cncf
+
+2 binaires detect + build
+
+Builder qui crée image via script lifecycle
+
+Baketo builder communautaire
+
+Conflit de builder?
+
+Utilise par cloud builder pour serverless
+
+Knative buildpacks utilise
+
+Riff netlify
+
+Sbom => software bill of material (doc sécu)
+
+Rebase image possible pour upgrade java par exemple
+
+Tekton

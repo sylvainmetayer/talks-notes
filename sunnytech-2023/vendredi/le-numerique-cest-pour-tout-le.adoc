@@ -1,0 +1,49 @@
+== Le numérique c’est pour tout le monde… ou pas !
+
+> vendredi 30 juin, 10:10 - 11:00
+
+link:https://sunny-tech.io/sessions/le-numerique-cest-pour-tout-le[Lien]
+link:https://sunny-tech.io/speakers/iris-naudin[Iris Naudin]
+link:https://sunny-tech.io/speakers/cecile-freydfoucault[Cécile Freyd-Foucault]
+
+=== Abstract
+
+Zones sans réseau, sites pas accessibles, télécommandes infernales … saviez-vous que 66% des utilisateurs sont exclus de vos dispositifs ?
+
+Vous voulez vivre dans un monde où les portes s’ouvrent dans le sens où elles sont censées s’ouvrir ? Où vos parents sont autonomes pour refaire leur carte grise en ligne ? Où (folie !) un site se charge en moins de 25 secondes même avec une mauvaise connexion ?
+
+Suivez-nous pour un tour d’horizon anti-exclusion : accessibilité, technique, complexité et contenu !
+
+=== Notes
+
+1/3 exclus numérique
+
+80% handicap invisible
+
+Pas de cadre pour l'inclusion mais pénal pour discrimination si pas conforme
+
+Couvertures réseau ARCEP
+
+Formation pro accessibilité insuffisante
+
+Biais jeu de données
+
+Biais cognitif
+
+Biais auto complaisance  Projection
+
+Pour changer
+
+Penser cas personnes oubliée lors conception
+
+Alt image
+
+Microsoft désign toolkit
+
+Accessibility annotations kit
+
+Français facile à lire et comprendre falc
+
+https://github.com/cecilefreyd/numerique_inclusif_ressources
+
+Rgaa obligatoire pour boîte >2m CA en 2025

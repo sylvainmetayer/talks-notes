@@ -1,0 +1,38 @@
+== REX: Une infrastructure Serverless de zéro, en Rust
+
+>  vendredi 30 juin, 09:00 - 09:50
+
+link:https://sunny-tech.io/sessions/rex-une-infrastructure-serverl[Lien]
+link:https://sunny-tech.io/speakers/alexandre-burgoni[Alexandre Burgoni]
+
+=== Abstract
+
+Function As A Service et Serverless, deux mots-clés qui donnent des étoiles dans les yeux. Mais avez-vous déjà vu la face cachée de ces systèmes du quotidien ?
+
+Au travers de deux projets: "RIK" et "Morty", nous irons en profondeur des composants d'une infrastructure FaaS : load balancer, front-end, runtime, software-defined network, scheduling, builder et j'en passe. Histoire de vous aider à y voir plus clair la prochaine fois que vous appellerez une fonction.
+
+RIK et Morty ? Pendant plusieurs mois nous avons développé "RIK", un orchestrateur de conteneurs et VMs en Rust. Et ce n'était pas uniquement pour concurrencer Kubernetes, mais aussi pour permettre de faire l'expérimentation d'une infrastructure serverless "Morty", from scratch et toujours en Rust ! Et bonne nouvelle, ces deux projets sont complètement Open-Source !
+
+=== Notes
+
+Faaz orchestre
+
+Rex projet cours Polytech
+
+Rik rust in kube open source
+
+Micro vm pour isoler kerbel
+
+Firecracker microvm
+
+Développer firepilot pour sdk rust
+
+Utilisation rootfs via extract docker (build docker file)
+
+Morty faaz runtime pour créer rootfs
+
+Création agent dans Rootfs pour interaction avec microvm via socket http + telemtry
+
+Controller point d'entrée load balancer function manager scheduler
+
+Demo live wordle

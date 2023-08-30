@@ -1,12 +1,9 @@
 == Vendredi
 
-include::apache-kafka-tips-tricks-que-j.adoc[leveloffset=+1]
-include::back-to-basics-jai-une-cle-ssh.adoc[leveloffset=+1]
-include::example-mapping-expliquer-faci.adoc[leveloffset=+1]
+include::rex-une-infrastructure-serverless.adoc[leveloffset=+1]
+include::le-numerique-cest-pour-tout-le.adoc[leveloffset=+1]
 include::imaginez-un-monde-sans-mot-de.adoc[leveloffset=+1]
-include::kubernetes.adoc[leveloffset=+1]
 include::pourquoi-le-css-ca-saoule-souv.adoc[leveloffset=+1]
-include::tauri-mais-cest-quoi-ce-truc.adoc[leveloffset=+1]
 include::typesafe-all-the-things-typage.adoc[leveloffset=+1]
 include::votre-propre-kube-as-a-service.adoc[leveloffset=+1]
 include::vous-devriez-utiliser-un-serve.adoc[leveloffset=+1]

@@ -5,6 +5,7 @@
 link:https://sunny-tech.io/sessions/plongeons-dans-la-creation-dun[Lien]
 link:https://sunny-tech.io/speakers/horacio-gonzalez-lostinbrittany[Horacio Gonzalez]
 link:https://sunny-tech.io/speakers/aurelie-vache[Aurélie Vache]
+link:https://www.youtube.com/watch?v=vwUyfPxCEVA&list=PLz7aCyCbFOu-5OE0ajDUVjlqBFq1y9XiQ&index=40[Video]
 
 === Abstract
 
@@ -20,4 +21,14 @@ Vont-ils réussir cette nouvelle mission ? :-D
 
 === Notes
 
-Mes notes sur le talk
+Pets server vs farm server => IAC
+
+Provider = wrapper api
+
+Taskfile = make "moderne"
+
+Utiliser template hashicorp pour création provider
+
+Enlever lock si pas de changement de version durant dev sinon pas update => durant le développement
+
+Tfplugins docs generator doc

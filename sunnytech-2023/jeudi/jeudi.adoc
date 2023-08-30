@@ -1,9 +1,7 @@
 == Jeudi
 
-include::flaky-ces-droles-de-bugs-qui-n.adoc[leveloffset=+1]
-include::foundationdb-le-secret-le-mieu.adoc[leveloffset=+1]
+include::codecarbon-comment-mesurer-lim.adoc[leveloffset=+1]
 include::kustomizons-nos-deploiements-k.adoc[leveloffset=+1]
 include::laissez-tombez-vos-dockerfile.adoc[leveloffset=+1]
 include::plongeons-dans-la-creation-dun.adoc[leveloffset=+1]
-include::securisons-nos-utilisateurs-gr.adoc[leveloffset=+1]
 include::un-solveur-de-contraintes-a-la.adoc[leveloffset=+1]

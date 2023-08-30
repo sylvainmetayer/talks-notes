@@ -21,4 +21,19 @@ Qui sait ? Tu finiras peut-être même par aimer ça !
 
 === Notes
 
-Mes notes sur le talk
+Démystifier CSS => Magie noire
+
+Pourquoi compliqué ? Car considéré par comme language et que mal compris : intention vocabulaire grammaire
+
+Maquette moyen imparfait de transmettre information
+
+CSS grammaire
+
+Code doit respecter intention : variable calc stylelint
+
+Stacking context z index
+
+RadixUI composant accessibilité
+
+Cssdojo.dev
+
