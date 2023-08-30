@@ -27,3 +27,4 @@ toc::[]
 
 include::jeudi/jeudi.adoc[]
 include::vendredi/vendredi.adoc[]
+
