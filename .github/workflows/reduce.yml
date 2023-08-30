@@ -1,8 +1,10 @@
 name: Reduce README
+permissions:
+  contents: write
 on:
   push:
     paths:
-      - sunnytech-2023/README.adoc
+      - sunnytech-2023/README_src.adoc
     branches: ["**"]
 jobs:
   build:
